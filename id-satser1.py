@@ -2,7 +2,7 @@
 tal = int(input ("Ange ett heltal:"))
 
 
-print(tal%2) 
+(tal%2) 
 if tal%2 == 1:
     print("0jämt tal")
 else:
