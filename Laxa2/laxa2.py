@@ -27,3 +27,18 @@ if t1>t2:
 else:
     print(t2,"som är ditt andra tal, är det största talet")
 
+#upg 4
+vinkel = float(input("Ange en vinkel v i grader där 0 <= v<=360  "))
+
+if vinkel >=0 and vinkel < 90: 
+    print("spetsig vinkel.")
+elif vinkel == 90:
+    print("rät vinkel")
+elif vinkel > 90 and vinkel <180:
+    print("Trubbig")
+elif vinkel == 180:
+    print("rak vinkel")
+elif vinkel > 180 and vinkel <360:
+    print("konvex vinkel")
+elif vinkel==360:    
+    print("print hel vinkel")
