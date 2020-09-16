@@ -42,3 +42,5 @@ elif vinkel > 180 and vinkel <360:
     print("konvex vinkel")
 elif vinkel==360:    
     print("print hel vinkel")
+else:
+    print("odefinerat")
