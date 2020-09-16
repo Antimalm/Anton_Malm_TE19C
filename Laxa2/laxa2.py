@@ -17,3 +17,13 @@ else:
 if t%5 ==0:
     print("Talet är delbart med 5")
 
+#upg 3. 
+t1=float(input("Skriv tal 1"))
+t2=float(input("skriv tal 2"))
+
+
+if t1>t2:
+    print(t1,"som är ditt första tal är det törsta talet")
+else:
+    print(t2,"som är ditt andra tal, är det största talet")
+
