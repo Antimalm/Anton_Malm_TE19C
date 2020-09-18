@@ -1,7 +1,13 @@
-#uppgift 6
-v1=float(input("Skriv vinkel a:"))
-v2=float(input("Skriv vinkel b:"))
-v3=float(input("Skriv vinkel c:"))
+#upg 7
+x=float(input("Skriv in din x-koordinat"))
+y=float(input("skriv in din y-koordinat"))
 
-if v1 or v2 or v3 ==90: 
-    print("Triangeln har en rät vinkel")
+if x>0 and y >0:
+    print("dessa koordinater tillhör kvadrant 1")
+elif x<0 and y <0:
+    print ("dessa koordinater tillhör kvadant 3")
+elif x<0 and y>0:
+    print("dessa koordinater tillhör kvadrant 4")        
+else:
+    print("dessa koordinater tillhör kvadrant 2")    
+    
