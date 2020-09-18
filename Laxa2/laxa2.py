@@ -18,8 +18,8 @@ if t%5 ==0:
     print("Talet är delbart med 5")
 
 #upg 3. 
-t1=float(input("Skriv tal 1"))
-t2=float(input("skriv tal 2"))
+t1=float(input("Skriv tal 1)"))
+t2=float(input("skriv tal 2)"))
 
 
 if t1>t2:
@@ -44,3 +44,14 @@ elif vinkel==360:
     print("print hel vinkel")
 else:
     print("odefinerat")
+
+#upg 5
+radien=float(input("Hur lång är radien?"))
+omkrets=radien*3.14
+arean= radien*radien*3.14
+o= round(omkrets,1)
+a= round(arean,1)
+if radien >0:
+    print(o,"cm är cirklens omkrets och",a,"cm är cirkelns area")
+else:
+    print("Talet är odefinerat")
