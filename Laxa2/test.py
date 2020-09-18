@@ -1,10 +1,7 @@
-#upg 5
-radien=float(input("Hur lång är radien?"))
-omkrets=radien*3.14
-arean= radien*radien*3.14
-o= round(omkrets,1)
-a= round(arean,1)
-if radien >0:
-    print(o,"cm är cirklens omkrets och",a,"cm är cirkelns area")
-else:
-    print("Talet är odefinerat")
+#uppgift 6
+v1=float(input("Skriv vinkel a:"))
+v2=float(input("Skriv vinkel b:"))
+v3=float(input("Skriv vinkel c:"))
+
+if v1 or v2 or v3 ==90: 
+    print("Triangeln har en rät vinkel")
