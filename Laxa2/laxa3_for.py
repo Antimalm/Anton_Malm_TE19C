@@ -40,15 +40,17 @@
 #for i in range(1,100,2):
     #s +=i
 #print (s)
+
 '''
-upgift 5 a
+uppgift 5a
 for i in range (0,11):
     print(f"5*{i} = {i*5}")
-''' 
+'''
 
 
 
 
 t=int(input("Skriv ett tal mellan 0-10"))
-for i in range (0,11):
-    print(f"{t*i}= {i*t}")
+j=int(input("Skriv ett tal mellan 0-10"))
+for i in range (0,j):
+    print(f"{i*t}")
