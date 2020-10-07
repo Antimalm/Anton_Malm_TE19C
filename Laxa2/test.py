@@ -1,13 +1,29 @@
-#upg 7
-x=float(input("Skriv in din x-koordinat"))
-y=float(input("skriv in din y-koordinat"))
 
-if x>0 and y >0:
-    print("dessa koordinater tillhör kvadrant 1")
-elif x<0 and y <0:
-    print ("dessa koordinater tillhör kvadant 3")
-elif x<0 and y>0:
-    print("dessa koordinater tillhör kvadrant 4")        
-else:
-    print("dessa koordinater tillhör kvadrant 2")    
-    
+'''
+while n < 10:
+    print(n, end =" ")
+    n+=1
+'''
+'''
+s= 0
+while n < 50:
+    s=s+n
+    n+=2
+print(f"{s}")
+'''
+'''
+1L mjölk 1500000 bakterier
+I rumstemperatur ökar antalet bakterier med 50% varje timme. 
+Mjölken blir sur när bakterierna överstiger 10000000 st
+Hur många timmar tills den blir sur?
+'''
+n=1500000
+while n < 10000000:
+    s = n*1,5
+print(f"{n}")
+
+'''
+import dandom as rnd
+
+rnd.randint(1,10)
+'''
