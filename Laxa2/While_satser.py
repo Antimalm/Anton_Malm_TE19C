@@ -50,10 +50,17 @@ print (f"{r}")
 import random as rnd
 rnd.randint(1,100)
 n=rnd.randint(1,100)
-gissning = float(input("skriv ett heltal mellan 0 och 100"))
+gissning = int(input(f"skriv ett heltal mellan 0 och 100"))
 while gissning != n:
     print:("ett annat tal")
-   
+    if gissning == n:
+        print("Rätt")
+    elif gissning < n:
+        print("högre")
+    elif gissning > n:
+        print ("lägre")
+    else:
+       print:{gissning}
 
 
 

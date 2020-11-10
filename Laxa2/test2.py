@@ -1,8 +1,3 @@
 
-
-n=0
-r=0
-while n < 100:
-    r+=2**(-n)
-    n+=1
-print (f"{r}")
+for n in range (0, 101, 1):
+    print(n)
