@@ -25,7 +25,7 @@ s=np.sqrt((y**2)+(x**2))
 print(f" avståndet från origo til punkerna (1,1) är = {s:.2f} längdenheter")
 '''
 '''
-uppgift 1 c) beräkna avståndet från origo till kordinaterna (-1,-1)
+uppgift 1 c) beräkna avståndet från origo till kordinaterna (-1,-1) Jag gör samma som på a och b. 
 '''
 '''
 y=-1
@@ -93,7 +93,7 @@ När jar gångrar med fyra får jag pi eftersom cirkelns area tar upp en fjärde
 '''
 h) Om jag testar att ändra x och y:s intervall från -2 till 2 så blir andelen 39% av punkterna innanför. 
 Om testar med x och y från -3 till 3 så blir andelen med radien över 3: 26%. Desto större värden jag väljer
-desto mindre blir andelen av punkter som är innanför. 
+desto mindre blir andelen av punkter som hamnar innanför den valda cirkeln.
 '''
 '''
 import matplotlib.pyplot as plt
